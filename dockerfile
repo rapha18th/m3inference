@@ -1,6 +1,6 @@
-FROM python:3.8-alpine
+FROM python:3.7-alpine
 
-COPY . /app
+COPY . /requirements.txt 
 
 WORKDIR /app
 
